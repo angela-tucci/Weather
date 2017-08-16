@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:#a0a0a0;
+  color:black;
+  text-align:center;
+  font-size:18px;
+}
+
+#container{
+  width:500px;
+  height:280px;
+  margin:auto;
+  vertical-align:middle;
+  border:1px solid black;
+  opacity:.5;
+  z-index:0;
+  background-size:500px;
+  background-repeat:no-repeat;
+  margin-top:10px;
+}
+
+#wrapper{
+  width:500px;
+  height:300px;
+  margin:auto;
+  z-index:1;
+  opacity:1;
+  vertical-align:middle;
+  margin-top:-230px;
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
